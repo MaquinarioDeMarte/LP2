@@ -1,5 +1,16 @@
 package repositorioGenerico;
 
-public class Aluno {
-
+public class Aluno extends Repositorio<String> {
+	private String nome;
+	private int matricula;
+	
+	public Aluno(String nome, int matricula) {
+		this.nome = nome;
+		this.matricula = matricula;
+	}
+	
+	@Override
+	public String toString() {
+	    return "Aluno{nome='" + nome + "', matricula=" + matricula + "}";
+	}
 }

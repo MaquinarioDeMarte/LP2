@@ -1,10 +1,9 @@
 package repositorioGenerico;
 
-public class Principal {
+public class Principal extends Menu {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
-
+		menuOptions();
 	}
 
 }
